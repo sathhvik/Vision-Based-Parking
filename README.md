@@ -1,33 +1,36 @@
-<<<<<<< HEAD
-# Car Parking Detection Project
+# 🚗 Scalable Vision-Based Parking Slot Detection and Management System for Smart Cities
 
-## How to Use
+[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)]()
+[![OpenCV](https://img.shields.io/badge/OpenCV-Image%20Processing-orange)]()
+[![YOLOv8](https://img.shields.io/badge/YOLOv8-Object%20Detection-red)]()
+[![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-FF4B4B)]()
+[![MongoDB](https://img.shields.io/badge/MongoDB-Database-green)]()
 
-1. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
+A **scalable vision-based smart parking system** designed to **detect parking slot availability in real-time** using **computer vision and deep learning**. The system eliminates the need for expensive sensor-based solutions by leveraging **CCTV/IP camera feeds**, **YOLO-based detection models**, and **Flask + Streamlit** for backend and dashboard integration.
 
-2. Add your own:
-   - `carPark.mp4` (video of parking area)
-   - `carParkImg.png` (image for space marking)
-
-3. Mark parking spaces:
-   ```bash
-   python ParkingSpacePicker.py
-   ```
-
-4. Run detection:
-   ```bash
-   python main.py
-   ```
+---
 
 
+The architecture includes:
+- **Flask backend** for processing detection results.
+- **Streamlit dashboard** for a real-time user-friendly interface for both administrators and drivers.
+- **MongoDB** for storing parking data, enabling occupancy tracking, usage analysis, and future optimizations.
 
+Planned enhancements include:
+- **Cloud integration** for distributed scalability.
+- **Predictive analytics** for demand forecasting.
+- **Mobile-based reservations** and **automated billing**.
 
- python main.py
- python ParkingSpacePicker.py
-=======
-# smart-parking-detection
-Smart Parking Management System Using Vision-Based Object Detection is a computer vision project designed to detect, monitor, and manage parking spaces in real-time. Leveraging deep learning models and OpenCV, the system identifies vacant and occupied parking spots from live camera feeds or pre-recorded videos. 
->>>>>>> 44475cdee41eb4a1a7a1c3a7811b36d9499424bd
+By reducing search time, minimizing congestion, and optimizing parking utilization, the system contributes to sustainable and intelligent urban mobility, aligning with smart city visions.
+
+---
+
+## ✅ Key Features
+- **Real-Time Detection:** YOLOv8-based model to detect vehicles and parking slot occupancy.
+- **Web Dashboard:** Built with **Streamlit** for real-time monitoring and analytics.
+- **Flask API Backend:** Processes image/video streams and returns detection results.
+- **Scalable Storage:** Parking data stored in **MongoDB** for analytics and optimization.
+- **Cost-Effective:** Eliminates the need for physical sensors by using camera-based detection.
+- **Future-Ready:** Supports cloud deployment, predictive analytics, and mobile apps.
+
+---
