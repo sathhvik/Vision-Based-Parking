@@ -4,4 +4,4 @@ streamlit
 flask
 ultralytics
 pymongo
-Pillow
+
